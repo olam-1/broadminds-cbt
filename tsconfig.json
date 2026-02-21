@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2022",
+<<<<<<< HEAD
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+=======
+    "lib": ["dom", "dom.iterable", "esnext"],
+>>>>>>> a5b9ce593025faca7273154c6591ed4cb02be261
     "allowJs": false,
     "skipLibCheck": true,
     "strict": true,
@@ -17,6 +21,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+<<<<<<< HEAD
     "paths": {
       "@/*": [
         "./*"
@@ -38,4 +43,10 @@
   "exclude": [
     "node_modules"
   ]
+=======
+    "paths": { "@/*": ["./*"] }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+>>>>>>> a5b9ce593025faca7273154c6591ed4cb02be261
 }
